@@ -25,7 +25,7 @@ def salam(workd, punctuation, name, ending):
 ```python
 @curry(3)
 def first_settings(word, punctuation, ending):
-    return lambda name: greet(word, punctuation, name, ending)
+    return lambda name: salam(word, punctuation, name, ending)
 
 final = first_serrings("Hello")(",")("!")
 
