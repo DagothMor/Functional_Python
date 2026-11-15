@@ -1,4 +1,7 @@
+Это было сложно, очень, приходилось ознекомиться с itertools.
+Чувствую что не то решение
 
+```python
 from itertools import accumulate, repeat, dropwhile, chain
 
 
@@ -63,8 +66,4 @@ def solve(rows, columns, landing_positions):
     )
 
     return final_state[0]
-
-
-print(solve(3, 3, [(2, 2)]))  # 3
-print(solve(5, 5, [(1, 1)]))  # 9
-print(solve(4, 4, [(1, 1), (4, 4)]))  # 4
+```
